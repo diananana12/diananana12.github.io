@@ -3,7 +3,9 @@ body {
     text-align: center;
 }
 
-h1 { 
+p1 { 
     font-size: 30px;
     color: blue;
+    font-family: cursive;
+}
 }
