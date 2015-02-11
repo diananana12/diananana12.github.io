@@ -2,3 +2,7 @@ body {
     background-color: #7FFFD4;
     text-align: center;
 }
+
+p{
+    word-spacing:30px;
+}
