@@ -3,9 +3,14 @@ body {
     text-align: center;
 }
 
-p { 
-    font-size: 24px;
-    color: blue;
-    font-family: cursive;
+.linkone {
+    margin-right:20px;
+} 
+.linktwo {
+    margin-right:5px;
+}
+.linkthree {
+    margin-left:50px;
 }
 
+    
