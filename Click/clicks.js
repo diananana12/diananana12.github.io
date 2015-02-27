@@ -1,3 +1,3 @@
 /*global $*/
 /*jslint sloppy:true, browser: true, white: true*/
-$("h1.page-title").text("My Code Runs!");
+$("h1.page-title").text("My code runs!");
