@@ -45,6 +45,7 @@ var mainState = {
         game.load.image('floor', 'images/floor.png');
         game.load.image('pipe_top', 'images/pipe_top.png');
         game.load.image('pipe_bottom', 'images/pipe_bottom.png');
+        //game.load.image('back', 'images/back.png');
         game.load.spritesheet('bird', 'images/bird_sheet.png', 68, 48);
     },
     
@@ -93,6 +94,7 @@ var mainState = {
         }
         if (game.physics.arcade.collide(this.sprite, this.obstacles)) {
             console.log('Game over man, game over!');
+            //game.load.image('game_over', 'images/game_over.png');
             game.paused = true;
         }
         
